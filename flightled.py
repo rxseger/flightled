@@ -8,7 +8,7 @@ import os
 import RPi.GPIO as GPIO
 
 # Durations to keep the LEDs turned on for after observation
-INTERESTING_EXPIRE = 60*60*6 # 6 hours
+INTERESTING_EXPIRE = 60*60*1 # 1 hour
 MUNDANE_EXPIRE = 2#seconds
 SELECT_TIMEOUT = 1#seconds
 
